@@ -33,7 +33,7 @@ export default class App extends React.Component{
       <h2 style={{marginBottom:"5px"}}>{this.state.Person.fullName}</h2>
       <h4 style={{marginTop:"0px",color:"gray"}}>{this.state.Person.profession}</h4>
       </div>
-      <Button variant="secondary" onClick={this.showProfile}>Show</Button>
+      <Button variant="secondary" onClick={this.showProfile}>Show & Time</Button>
       <h2 >TIME: {this.state.count}s</h2>
       </>
     )
